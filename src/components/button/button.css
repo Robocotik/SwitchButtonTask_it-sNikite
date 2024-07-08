@@ -4,25 +4,20 @@
     padding-block: 4px;
     padding-inline: 8px;
     border-radius: 16px;
+    background-color: transparent;
+    color: black;   
     transition: all 1s;
     
 }
 
-.App_textStyleBase{
+.textStyleBase{
     color: white;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.isFill{
+.App__button_fulled{
     background-color: rgb(78, 78, 228);
-    color: white;
-
-    
-}
-
-.isTransparent{
-    background-color: transparent;
-    color: black;
+    color: white;   
 }
