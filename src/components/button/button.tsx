@@ -7,7 +7,7 @@ const Button = ({ text = "empty", isFill = true }: { text: string, isFill: boole
 
     const switchFill = (e) => {
         e.preventDefault();
-        let  obj = e.target;
+        let obj = e.target;
         console.log('Была нажата ссылка.');
         if (obj?.classList.contains("isFill")) {
             obj.classList.remove("isFill");
@@ -21,7 +21,7 @@ const Button = ({ text = "empty", isFill = true }: { text: string, isFill: boole
 
     return (
         <div>
-            <button className={`App__button ${fillFlag}`} onClick={switchFill}>{text}</button>
+            <button className={`App__button App_textStyleBase ${fillFlag}`} onClick={switchFill}>{text}</button>
         </div >
     );
 
